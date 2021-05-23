@@ -27,6 +27,7 @@ public class GalleryFragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_gallery, container, false);
         WebView webView=root.findViewById(R.id.web_view_toi);
         webView.loadUrl("https://timesofindia.indiatimes.com/");
+
         webView.setWebViewClient(new WebViewController());
         return root;
     }

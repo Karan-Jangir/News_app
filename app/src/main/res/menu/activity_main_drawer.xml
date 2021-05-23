@@ -20,32 +20,10 @@
             android:icon="@drawable/h"
             android:title="Hindustan Times"
             android:menuCategory="secondary"/>
-        <item
-            android:id="@+id/indian_express"
-            android:icon="@drawable/i"
-            android:title="Indian Express"
-            android:menuCategory="secondary"/>
-        <item
-            android:id="@+id/india_today"
-            android:icon="@drawable/i"
-            android:title="India Today"
-            android:menuCategory="secondary"/>
+
     </group>
 
-    <item
-        android:title="Hindi News"
-       android:menuCategory="secondary"
-           >
-        <menu>
-            <item
-                android:id="@+id/bhaskar"
-                android:icon="@drawable/d"
-                android:title="Dainik Bhaskar"
-               />
-        </menu>
 
-
-    </item>
 
 
 </menu>

@@ -22,19 +22,4 @@
         android:name="com.example.newsapp.ui.Slideshow.SlideshowFragment"
         android:label="Hindustan Times"
         tools:layout="@layout/fragment_slideshow" />
-    <fragment
-        android:id="@+id/india_today"
-        android:name="com.example.newsapp.fragment.IndiaTodayFragment"
-        android:label="India Today"
-        tools:layout="@layout/fragment_india_today" />
-    <fragment
-        android:id="@+id/indian_express"
-        android:name="com.example.newsapp.fragment.IndianExpressFragment"
-        android:label="Indian Express"
-        tools:layout="@layout/fragment_indian_express" />
-    <fragment
-        android:id="@+id/bhaskar"
-        android:name="com.example.newsapp.fragment.BhaskarFragment"
-        android:label="Dainik Bhaskar"
-        tools:layout="@layout/fragment_bhaskar" />
 </navigation>
